@@ -94,3 +94,64 @@
    ```
 
    2 qaytaracaq, çünki 50 12-yə bölünür və cavab 4 (qalıq 2) olur. Qalıq 2 olduğu üçün də cavab 2 olacaq.
+
+<br>
+
+4. #### **Explain logical operators in Python.**
+
+   Məntiqi operatorlar şərti ifadələrdə istifadə olunur və boolean dəyər (True və ya False) qaytarır. Pythonda 3 məntiqi operator var.
+
+   | Operator |                                       Təsviri                                       | Sintaksisi |
+   | :------: | :---------------------------------------------------------------------------------: | :--------: |
+   |   and    |                     Əgər hər iki tərəf doğrudursa True qaytarır                     |  a and b   |
+   |    or    |                   Əgər iki tərəfdən biri doğrudursa True qaytarır                   |   a or b   |
+   |   not    | Nəticəni tərsinə çevirir, əgər doğrudursa False qaytarır, yanlışdırsa True qaytarır |   not a    |
+
+   _Nümunə:_
+
+   ```py
+   a = 5
+
+   print(5 >= a and 20 > a) # True qaytarır, çünki şərtlərin hər ikisi də doğrudur
+
+   print(5 < a or 20 > a) # True qaytarır, çünki şərtlərdən biri doğrudur
+
+   print(not(5 < a or 20 > a)) # False qaytarır, çünki nəticə tərsinə çevrilir
+   ```
+
+   Belə bir cədvəllə sualı yekunlaşdıraq.
+
+   | Operator A | Operator B | Logical AND nəticə |
+   | :--------: | :--------: | :----------------: |
+   |    True    |    True    |        True        |
+   |    True    |   False    |       False        |
+   |   False    |    True    |       False        |
+   |   False    |   False    |       False        |
+
+   | Operator A | Operator B | Logical OR nəticə |
+   | :--------: | :--------: | :---------------: |
+   |    True    |    True    |       True        |
+   |    True    |   False    |       True        |
+   |   False    |    True    |       True        |
+   |   False    |   False    |       False       |
+
+   | Operator A | Logical NOT nəticə |
+   | :--------: | :----------------: |
+   |    True    |       False        |
+   |   False    |        True        |
+
+   <br>
+
+5. #### **How do you calculate the length of a string?**
+
+   Bunun üçün **len()** funksiyasından istifadə edirik və string'lərin uzunluğunu hesabladığımız üçün nəticə olaraq xarakterlərin sayını qaytarır.
+
+   _Nümunə:_
+
+   ```py
+   s = len("mətn")
+   print(s) # 4 qaytarır
+
+   a = len("Salam, Zöhrab!")
+   print(a) # 14 qaytarır
+   ```
