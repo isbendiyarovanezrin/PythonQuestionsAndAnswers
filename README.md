@@ -6,7 +6,7 @@
 </div>
 <br>
 
-1.  #### **What is the built-in function used in Python to iterate over a sequence of numbers?**
+1.  ### **What is the built-in function used in Python to iterate over a sequence of numbers?**
 
     Pythonda **range()** funksiyası ədədlər ardıcıllığını qaytarır və default olaraq 1-dən başlayır, 1-1 artır və müəyyən edilmiş ədəddən sonra dayanır.
 
@@ -54,12 +54,12 @@
 
 <br>
 
-2. #### **Suppose list1 is [2, 12, 222, 55, 52]. What is list1[-1]?**
+2. ### **Suppose list1 is [2, 12, 222, 55, 52]. What is list1[-1]?**
    Ədəd mənfi (sondan başlayacaq) və 1 (1-ci ədədi götürəcək) olduğu üçün cavab 52 olacaq.
 
 <br>
 
-3. #### **Explain the //, %, and \*\* operators in Python.**
+3. ### **Explain the //, %, and \*\* operators in Python.**
 
    `//` operatoru qalıqsız bölmə operatorudur. Nəticə həmişə tam ədəd olur. <br>
 
@@ -97,7 +97,7 @@
 
 <br>
 
-4. #### **Explain logical operators in Python.**
+4. ### **Explain logical operators in Python.**
 
    Məntiqi operatorlar şərti ifadələrdə istifadə olunur və boolean dəyər (True və ya False) qaytarır. Pythonda 3 məntiqi operator var.
 
@@ -142,7 +142,7 @@
 
    <br>
 
-5. #### **How do you calculate the length of a string?**
+5. ### **How do you calculate the length of a string?**
 
    Bunun üçün **len()** funksiyasından istifadə edirik və string'lərin uzunluğunu hesabladığımız üçün nəticə olaraq xarakterlərin sayını qaytarır.
 
@@ -155,3 +155,5 @@
    a = len("Salam, Zöhrab!")
    print(a) # 14 qaytarır
    ```
+
+   #### ⬆ [Yuxarıya qayıt](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#readme)
