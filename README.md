@@ -4,7 +4,7 @@
 ### **Python Interview Questions and Answers**
 
 </div>
-<br>
+<br />
 
 1.  ### **What is the built-in function used in Python to iterate over a sequence of numbers?**
 
@@ -52,12 +52,12 @@
     14
     ```
 
-<br>
+<br />
 
 2. ### **Suppose list1 is [2, 12, 222, 55, 52]. What is list1[-1]?**
    Ədəd mənfi (sondan başlayacaq) və 1 (1-ci ədədi götürəcək) olduğu üçün cavab 52 olacaq.
 
-<br>
+<br />
 
 3. ### **Explain the //, %, and \*\* operators in Python.**
 
@@ -71,9 +71,9 @@
 
    5 qaytaracaq, çünki 55-in içində 5 dənə 10 var. Qalıq isə nəzərə alınmır. Əgər adi bölmə əməliyyatı (55 / 10) ilə yazsaydıq cavab 5.5 olardı.
 
-   <br>
+   <br />
 
-   `**` operatoru qüvvətə yüksəltmə operatorudur. <br>
+   `**` operatoru qüvvətə yüksəltmə operatorudur. <br />
 
    _Nümunə:_
 
@@ -83,7 +83,7 @@
 
    25 qaytaracaq, çünki 5-i 2 dəfə öz-özünə vuranda (5 üstü 2) 25 edir.
 
-   <br>
+   <br />
 
    `%` operatorunun mənası budur ki, məsələn, a b-yə bölünür və onların bölünməsindən qalıq c alınır. Buradakı qalıq c `a % b` ifadəsinin cavabıdır.
 
@@ -95,7 +95,7 @@
 
    2 qaytaracaq, çünki 50 12-yə bölünür və cavab 4 (qalıq 2) olur. Qalıq 2 olduğu üçün də cavab 2 olacaq.
 
-<br>
+<br />
 
 4. ### **Explain logical operators in Python.**
 
@@ -140,7 +140,7 @@
    |    True    |       False        |
    |   False    |        True        |
 
-   <br>
+   <br />
 
 5. ### **How do you calculate the length of a string?**
 
@@ -154,6 +154,27 @@
 
    a = len("Salam, Zöhrab!")
    print(a) # 14 qaytarır
+   ```
+
+   <br />
+
+6. ### **How will you remove last object from a list?**
+
+   Bunun üçün pop() metodundan istifadə edə bilərik.
+
+   _Sintaksisi:_
+
+   `list.pop(mövqe)`
+
+   _Nümunə:_
+
+   ```py
+   meyveler = ["armud", "alma", "banan"]
+
+   print(meyveler) # ['armud', 'alma', 'banan']
+
+   meyveler.pop()
+   print(meyveler) # ['armud', 'alma']
    ```
 
    #### ⬆ [Yuxarıya qayıt](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#readme)
