@@ -160,7 +160,7 @@
 
 6. ### **How will you remove last object from a list?**
 
-   Bunun üçün pop() metodundan istifadə edə bilərik.
+   Bunun üçün `pop()` metodundan istifadə edə bilərik.
 
    _Sintaksisi:_
 
@@ -175,6 +175,24 @@
 
    meyveler.pop()
    print(meyveler) # ['armud', 'alma']
+   ```
+
+7. ### **How will you capitalize the first letter of a string?**
+
+   Bunun üçün `capitalize()` metodundan istifadə edə bilərik. `Capitalize()` metodu ilk xarakterin böyük, qalanlarının isə kiçik hərf olduğu stringi qaytarır.
+
+   _Sintaksisi:_
+
+   `string.capitalize()`
+
+   _Nümunə:_
+
+   ```py
+   str = "gör məni!"
+
+   c = str.capitalize()
+
+   print (c) # Gör məni!
    ```
 
    #### ⬆ [Yuxarıya qayıt](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#readme)
