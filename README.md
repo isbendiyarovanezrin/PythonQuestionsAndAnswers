@@ -8,7 +8,7 @@
 
 1.  ### **What is the built-in function used in Python to iterate over a sequence of numbers?**
 
-    Pythonda **range()** funksiyası ədədlər ardıcıllığını qaytarır və default olaraq 1-dən başlayır, 1-1 artır və müəyyən edilmiş ədəddən sonra dayanır.
+    Pythonda **range()** funksiyası ədədlər ardıcıllığını qaytarır və default olaraq 0-dan başlayır, 1-1 artır və müəyyən edilmiş ədəddən sonra dayanır.
 
     Sintaksisi bu şəkildədir: **range(start, stop, step)**
 
