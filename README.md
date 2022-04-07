@@ -1,16 +1,20 @@
 <div align="center">
   <img width="65" src="https://i.postimg.cc/50RBRxjd/python.png">
 
-### **Python Interview Questions and Answers**
+## Python Interview Questions and Answers
 
 </div>
 <br />
 
-1.  ### **What is the built-in function used in Python to iterate over a sequence of numbers?**
+1.  ### What is the built-in function used in Python to iterate over a sequence of numbers?
 
-    Pythonda **range()** funksiyası ədədlər ardıcıllığını qaytarır və default olaraq 0-dan başlayır, 1-1 artır və müəyyən edilmiş ədəddən sonra dayanır.
+    Pythonda `range()` funksiyası ədədlər ardıcıllığını qaytarır və default olaraq 0-dan başlayır, 1-1 artır və müəyyən edilmiş ədəddən sonra dayanır.
 
-    Sintaksisi bu şəkildədir: **range(start, stop, step)**
+    _Sintaksisi bu şəkildədir:_
+
+    ```
+    range(start, stop, step)
+    ```
 
     _Nümunə:_
 
@@ -54,12 +58,12 @@
 
 <br />
 
-2. ### **Suppose list1 is [2, 12, 222, 55, 52]. What is list1[-1]?**
+2. ### Suppose list1 is [2, 12, 222, 55, 52]. What is list1[-1]?
    Ədəd mənfi (sondan başlayacaq) və 1 (1-ci ədədi götürəcək) olduğu üçün cavab 52 olacaq.
 
 <br />
 
-3. ### **Explain the //, %, and \*\* operators in Python.**
+3. ### Explain the //, %, and \*\* operators in Python.
 
    `//` operatoru qalıqsız bölmə operatorudur. Nəticə həmişə tam ədəd olur. <br>
 
@@ -97,7 +101,7 @@
 
 <br />
 
-4. ### **Explain logical operators in Python.**
+4. ### Explain logical operators in Python.
 
    Məntiqi operatorlar şərti ifadələrdə istifadə olunur və boolean dəyər (True və ya False) qaytarır. Pythonda 3 məntiqi operator var.
 
@@ -142,9 +146,9 @@
 
    <br />
 
-5. ### **How do you calculate the length of a string?**
+5. ### How do you calculate the length of a string?
 
-   Bunun üçün **len()** funksiyasından istifadə edirik və string'lərin uzunluğunu hesabladığımız üçün nəticə olaraq xarakterlərin sayını qaytarır.
+   Bunun üçün `len()` funksiyasından istifadə edirik və stringlərin uzunluğunu hesabladığımız üçün nəticə olaraq xarakterlərin sayını qaytarır.
 
    _Nümunə:_
 
@@ -158,13 +162,15 @@
 
    <br />
 
-6. ### **How will you remove last object from a list?**
+6. ### How will you remove last object from a list?
 
    Bunun üçün `pop()` metodundan istifadə edə bilərik.
 
    _Sintaksisi:_
 
-   `list.pop(mövqe)`
+   ```
+   list.pop(mövqe)
+   ```
 
    _Nümunə:_
 
@@ -177,13 +183,15 @@
    print(meyveler) # ['armud', 'alma']
    ```
 
-7. ### **How will you capitalize the first letter of a string?**
+7. ### How will you capitalize the first letter of a string?
 
    Bunun üçün `capitalize()` metodundan istifadə edə bilərik. `Capitalize()` metodu ilk xarakterin böyük, qalanlarının isə kiçik hərf olduğu stringi qaytarır.
 
    _Sintaksisi:_
 
-   `string.capitalize()`
+   ```
+   string.capitalize()
+   ```
 
    _Nümunə:_
 
