@@ -1,10 +1,25 @@
 <div align="center">
-  <img width="65" src="https://i.postimg.cc/50RBRxjd/python.png">
+<img width="65" src="https://i.postimg.cc/50RBRxjd/python.png">
 
 ## Python Interview Questions and Answers
 
 </div>
-<br />
+
+<br/>
+
+### Table of Contents
+
+| №     | Questions                                                                                                                                                                                                                                  |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **1** | [What is the built-in function used in Python to iterate over a sequence of numbers?](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#what-is-the-built-in-function-used-in-python-to-iterate-over-a-sequence-of-numbers) |
+| **2** | [Suppose list1 is [2, 12, 222, 55, 52]. What is list1[-1]?](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#suppose-list1-is-2-12-222-55-52-what-is-list1-1)                                                              |
+| **3** | [Explain the //, %, and \*\* operators in Python.](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#explain-the---and--operators-in-python)                                                                                |
+| **4** | [Explain logical operators in Python.](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#explain-logical-operators-in-python)                                                                                               |
+| **5** | [How do you calculate the length of a string?](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#how-do-you-calculate-the-length-of-a-string)                                                                               |
+| **6** | [How will you remove last object from a list?](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#how-will-you-remove-last-object-from-a-list)                                                                               |
+| **7** | [How will you capitalize the first letter of a string?](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#how-will-you-capitalize-the-first-letter-of-a-string)                                                             |
+
+<br/>
 
 1.  ### What is the built-in function used in Python to iterate over a sequence of numbers?
 
@@ -59,6 +74,7 @@
 <br />
 
 2. ### Suppose list1 is [2, 12, 222, 55, 52]. What is list1[-1]?
+
    Ədəd mənfi (sondan başlayacaq) və 1 (1-ci ədədi götürəcək) olduğu üçün cavab 52 olacaq.
 
 <br />
