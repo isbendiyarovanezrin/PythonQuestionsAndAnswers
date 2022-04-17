@@ -220,3 +220,5 @@
    ```
 
    #### ⬆ [Yuxarıya qayıt](https://github.com/isbendiyarovanezrin/PythonQuestionsAndAnswers#readme)
+
+   ### Sualları [bu](https://github.com/learning-zone/python-interview-questions "Click me!🙃") repodan götürmüşəm.
