@@ -1,6 +1,10 @@
 <div align="center">
 <img width="65" src="https://i.postimg.cc/50RBRxjd/python.png">
 
+#### "PYTHON = (P)rogrammers (Y)earning (T)o (H)omestead (O)ur (N)oosphere."
+
+<p align="end"><em>━ Sean McGrath &nbsp;&nbsp;&nbsp;&nbsp;</em></p>
+
 ## Python Interview Questions and Answers
 
 </div>
